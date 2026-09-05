@@ -14,6 +14,19 @@ archive are deposited with this same data release on Zenodo:
 - Version DOI: <https://doi.org/10.5281/zenodo.22317659>
 - All-versions DOI: <https://doi.org/10.5281/zenodo.22317658>
 
+## Read the exact polynomial online
+
+The complete degree-56 coefficient list can be inspected without downloading
+or opening a 31.6 MB line of digits:
+
+- Public HTML reader: <https://sl2-f13-polynomial.jiangshe294.chatgpt.site>
+- Editable LaTeX companion: <https://sl2-f13-polynomial.jiangshe294.chatgpt.site/f56_reader_source.tex>
+- Reproducible website source: [`readable-web/`](readable-web/)
+
+The reader loads one coefficient at a time, displays numbered 100-digit blocks,
+and exposes the per-coefficient digest and source-line metadata.  Its generated
+data reconstruct the canonical `f56_Z.txt` payload byte for byte.
+
 The construction reported in the paper relies on substantive contributions
 from GPT-5.6 Sol, as stated in the abstract and Zenodo description.
 
@@ -72,4 +85,3 @@ explicitly disclosed in [`verification/README.md`](verification/README.md).
 Citation metadata is provided in [`CITATION.cff`](CITATION.cff).  The deposited
 materials are released under the Creative Commons Attribution 4.0 International
 license; see [`LICENSE.md`](LICENSE.md).
-

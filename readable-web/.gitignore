@@ -1,0 +1,8 @@
+/node_modules/
+/dist/
+/.next/
+/.vinext/
+/.wrangler/
+/public/data/
+.DS_Store
+next-env.d.ts

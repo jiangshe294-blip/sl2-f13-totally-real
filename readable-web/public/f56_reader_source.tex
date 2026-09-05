@@ -1,0 +1,46 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage[hidelinks]{hyperref}
+\usepackage[margin=1in]{geometry}
+
+\title{Exact Coefficient Reader for a Totally Real
+  $\mathrm{SL}_2(\mathbf F_{13})$ Polynomial}
+\author{Jiang Yu}
+\date{}
+
+\begin{document}
+\maketitle
+
+The integer polynomial displayed by the companion HTML reader is
+\begin{equation}
+  Z(X)=\sum_{i=0}^{56} z_iX^i\in\mathbf Z[X].
+\end{equation}
+Its leading coefficient is used as the common denominator:
+\begin{equation}
+  D=z_{56}>0,
+  \qquad
+  f(X)=\frac{Z(X)}{D}\in\mathbf Q[X].
+\end{equation}
+All odd coefficients vanish.  Hence, on setting
+\begin{equation}
+  P_{28}(T)=\sum_{j=0}^{28}\frac{z_{2j}}{D}T^j,
+\end{equation}
+we have the exact identity
+\begin{equation}
+  f(X)=P_{28}(X^2).
+\end{equation}
+
+The canonical coefficient file is \texttt{f56\_Z.txt}.  Its coefficient
+order is ascending: line $i+1$ is $z_i$.  Its SHA--256 digest is
+\begin{center}
+\texttt{5058792bf79dd594034393954aac53bf801a57f7a36e989c55efefc9c270fd50}.
+\end{center}
+
+The complete exact data and verification materials are available at
+\href{https://doi.org/10.5281/zenodo.22317659}{doi:10.5281/zenodo.22317659}
+and in the public repository
+\href{https://github.com/jiangshe294-blip/sl2-f13-totally-real}
+{github.com/jiangshe294-blip/sl2-f13-totally-real}.
+
+\end{document}
