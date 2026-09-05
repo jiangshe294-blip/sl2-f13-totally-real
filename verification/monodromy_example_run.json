@@ -1,0 +1,199 @@
+{
+  "status": "PASS_EXACT_COVER_AND_GEOMETRIC_PSL2_F13",
+  "input_sha256": {
+    "math_core.json": "f8d600aca5b91ca7c75225b85ddff5b8397efc662a9b3e1c94b4c6b7dc1018a9",
+    "monodromy_tubes.json.gz": "8b318c184ef1b74cef7423212291cf9cb5ec65c3aca795888ec6743713dc164f"
+  },
+  "source_sha256": {
+    "monodromy.py": "af3ef5fd83f8dcef97fd9c997277a7820755cfcde4f3184c26c3ea40208016e1",
+    "monodromy_intervals.py": "ac07413cedd8ac5dcd48a833e7ee02e0aff85b4e9f2eebdde288559ff4a4ae93",
+    "monodromy_geometry.py": "9fb3cafaa994d39249e136cbb0cb7947040a1d523b49eafe12ac83eeedf3e6ea",
+    "cover.py": "5f92daaf96ef750730823943b7dc8fb3947ccbe40c2c05691760c59afb57b602"
+  },
+  "cover": {
+    "status": "PASS_EXACT_COVER_IDENTITIES_AND_OPEN_CONDITIONS",
+    "norm_identity": true,
+    "symmetric_branch_fibers": true,
+    "critical_divisor_identity": true,
+    "squarefree_disjoint_F_Q_D": true,
+    "open_conditions": {
+      "prime": 41,
+      "B_ascending": [
+        18,
+        27,
+        0,
+        1
+      ],
+      "nonzero_norm_resultant_residues_mod_B": {
+        "U_Uprime": [
+          0,
+          20,
+          7
+        ],
+        "V_Vprime": [
+          17,
+          9,
+          14
+        ],
+        "U_V": [
+          8,
+          8,
+          20
+        ],
+        "U_Q": [
+          32,
+          31,
+          3
+        ],
+        "U_F": [
+          12,
+          10,
+          28
+        ],
+        "U_D": [
+          16,
+          33,
+          15
+        ]
+      },
+      "V_leading_coefficient_ascending": [
+        11,
+        0,
+        0
+      ]
+    },
+    "R_discriminant_positive_square": true,
+    "seconds": 0.27826929101138376
+  },
+  "branch_root_isolation": [
+    {
+      "name": "b1",
+      "left": "-477/469",
+      "right": "-3518/3459",
+      "exact_root_count": 1
+    },
+    {
+      "name": "b2",
+      "left": "-1025/1042",
+      "right": "-1447/1471",
+      "exact_root_count": 1
+    },
+    {
+      "name": "b3",
+      "left": "2697/1348",
+      "right": "2695/1347",
+      "exact_root_count": 1
+    }
+  ],
+  "loops": {
+    "b1": {
+      "certified_segments": 183,
+      "permutation": [
+        0,
+        2,
+        1,
+        4,
+        3,
+        7,
+        8,
+        5,
+        6,
+        10,
+        9,
+        12,
+        11,
+        13
+      ],
+      "max_uniform_rouche_ratio": "28108256224870356171615664837437533680064992934790310757068039529237099060794505112618597390614129693426734/32695824778182563974507295381827314402698999572508672086489414793967984573064377841519244776918719773050941",
+      "maximum_segment_seconds": 0.03824737499235198,
+      "seconds": 6.756730499997502
+    },
+    "b2": {
+      "certified_segments": 179,
+      "permutation": [
+        1,
+        0,
+        3,
+        2,
+        5,
+        4,
+        7,
+        6,
+        9,
+        8,
+        11,
+        10,
+        12,
+        13
+      ],
+      "max_uniform_rouche_ratio": "28108256224870356171615664837437533680064992934790310757068039529237099060794505112618597390614129693426734/32695824778182563974507295381827314402698999572508672086489414793967984573064377841519244776918719773050941",
+      "maximum_segment_seconds": 0.03754745802143589,
+      "seconds": 6.612949375004973
+    },
+    "b3": {
+      "certified_segments": 144,
+      "permutation": [
+        2,
+        3,
+        0,
+        1,
+        10,
+        11,
+        7,
+        6,
+        8,
+        9,
+        4,
+        5,
+        13,
+        12
+      ],
+      "max_uniform_rouche_ratio": "64153181087716946719295250149877634806655550927634631543276029680958629137979325157089358066675919844845/82223778240770977124990887288160105328703812280289849388655175421608335883337325882652504851818796602197",
+      "maximum_segment_seconds": 0.03756804100703448,
+      "seconds": 5.296889000019291
+    }
+  },
+  "total_segments": 506,
+  "finite_group": {
+    "order": 1092,
+    "root_label_to_P1_F13": [
+      0,
+      12,
+      1,
+      11,
+      2,
+      10,
+      9,
+      3,
+      4,
+      8,
+      5,
+      7,
+      6,
+      13
+    ],
+    "generator_SL2_matrices": [
+      [
+        5,
+        0,
+        0,
+        8
+      ],
+      [
+        5,
+        5,
+        0,
+        8
+      ],
+      [
+        2,
+        11,
+        9,
+        11
+      ]
+    ],
+    "independently_enumerated_standard_projective_matrix_actions": 1092
+  },
+  "arithmetic_specialization_and_SL2_lift_checked": false,
+  "seconds": 18.9802573339839
+}

@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.o
+build/
+cmake-build-*/
+my-verification-work/
+verification-work/
+

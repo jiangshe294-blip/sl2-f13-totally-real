@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the Zenodo record and the accompanying preprint."
+title: "A certified degree-56 totally real realization of SL2(F13)"
+type: software
+authors:
+  - family-names: Yu
+    given-names: Jiang
+version: v1
+date-released: 2026-09-05
+doi: 10.5281/zenodo.22317659
+url: "https://doi.org/10.5281/zenodo.22317659"
+license: CC-BY-4.0
+
